@@ -5,8 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="content">
+
+        <div class="information-entry">
+            <div class="some-text">
+                <h1>Get Started</h1></div>
+            <form action="" method="post">
+                <fieldset>
+                    <div class="input-container">
+                        <label for="first_name">First Name</label>
+                        <input type="text" name="first_name" id="first_name">
+                    </div>
+                    <div class="input-container">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" name="last_name" id="last_name">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="input-container">
+                        <label for="user_email">Email</label>
+                        <input type="email" name="user_email" id="user_email">
+                    </div>
+                    <div class="input-container">
+                        <label for="user_phone">Phone Number</label>
+                        <input type="tel" name="user_phone" id="user_phone">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="input-container">
+                        <label for="user_password">Password</label>
+                        <input type="password" name="user_password" id="user_password">
+                    </div>
+                    <div class="input-container">
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" name="confirm_password" id="confirm_password">
+                    </div>
+                </fieldset>
+                <button type="submit">Create Account</button>
+            </form>
+        </div>
+
+        <div class="log-in">
+            <p>Already have an account? <a href="">Log in</a></p>
+        </div>
+    </div>
 </body>
 </html>
