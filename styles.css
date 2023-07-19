@@ -7,7 +7,11 @@ html {
     height: 100vh;
 }
 
-
+.picture {
+    margin-left: 130px;
+    width: 150px;
+    height: 150px;
+}
 
 body {
     color: white;
@@ -31,7 +35,7 @@ fieldset {
     outline: none;
     width: 225px;
     height: 30px;
-    margin-left: -36px;
+    margin-left: -34px;
 }
 
 .input-container:focus {
@@ -49,12 +53,13 @@ button {
 
 .content {
     margin-top: 30vh;
-     margin-left: 45vw;
+    margin-left: 45vw;
 }
 
 a {
     text-decoration: none;
     font-weight: 900;
+    font-size: 20px;
     color: red;
 }
 
